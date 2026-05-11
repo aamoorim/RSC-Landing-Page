@@ -110,6 +110,7 @@ O projeto foi desenvolvido com foco em:
 - 🌐 HTML5
 - 🎨 CSS3
 - ⚡ JavaScript
+- 🎨 Bootstrap
 
 ---
 
