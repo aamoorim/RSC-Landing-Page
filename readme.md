@@ -2,8 +2,6 @@
 
 > Projeto desenvolvido como atividade de extensão da disciplina de Construção de Páginas para Internet da Universidade Christus.
 
----
-
 # ❤️ Sobre o Projeto
 
 O objetivo deste projeto foi desenvolver uma página institucional acolhedora e informativa para o **Recanto do Sagrado Coração (RSC)**, uma casa de repouso para idosas.
@@ -120,17 +118,10 @@ O projeto foi desenvolvido com foco em:
 📁 projeto-rsc
 │
 ├── 📁 assets
-│   ├── 📁 img
-│   ├── 📁 video
-│   └── 📁 icons
-│
-├── 📁 css
-│   └── style.css
-│
-├── 📁 js
-│   └── script.js
+│   ├── rsc.ong.png
 │
 ├── index.html
+├── style.css
 └── README.md
 ```
 
@@ -148,6 +139,8 @@ Além do aprendizado técnico, o projeto também reforça:
 ---
 
 # 🚀 Como Executar o Projeto
+Acesse o link a seguir: https://aamoorim.github.io/RSC-Landing-Page/ <br/>
+Ou então: 
 
 1. Clone o repositório:
 
