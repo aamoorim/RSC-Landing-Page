@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RSC</title>
+    <link rel="shortcut icon" href="assets/rsc.ong.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- cabeçalho -->
+    <input type="checkbox" id="menu-toggle">
+    <header id="topo">
+        <div class="brand">
+            <div class="logo-wrap">
+                <img src="./assets/rsc.ong.png" alt="Logo RSC">
+            </div>
+            <h1>Recanto do Sagrado Coração</h1>
+        </div>
+
+        <label class="menu-btn" for="menu-toggle" aria-label="Menu">
+            <i class="bi bi-list"></i>
+        </label>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre"><i class="bi bi-heart"></i> Sobre Nós</a></li>
+            <li><a href="#destaques"><i class="bi bi-star"></i> Destaques</a></li>
+            <li><a href="#doacoes"><i class="bi bi-gift"></i> Doações</a></li>
+            <li><a href="#localizacao"><i class="bi bi-geo-alt"></i> Localização</a></li>
+        </ul>
+    </nav>
+
+    <!-- conteúdo principal -->
+    <main>
+        <section id="sobre">
+            <p class="section-eyebrow">Quem somos</p>
+            <h2>Sobre Nós</h2>
+            <div class="section-divider"></div>
+            <iframe class="video" src="https://www.youtube.com/embed/9UlmLyq1ZKQ" title="Vídeo Institucional" allowfullscreen></iframe>
+        </section>
+
+        <section id="destaques">
+            <p class="section-eyebrow">Novidades</p>
+            <h2>Destaques</h2>
+            <div class="section-divider"></div>
+            <img class="imagem-rsc" src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1200&auto=format&fit=crop" alt="Imagem RSC">
+            <h3 class="subtitulo">Transformando vidas através da solidariedade</h3>
+            <p class="texto">O Recanto do Sagrado Coração é uma instituição dedicada ao acolhimento, cuidado e apoio de pessoas em situação de vulnerabilidade social. Nosso objetivo é oferecer assistência, carinho e oportunidades para crianças, jovens, adultos e idosos que necessitam de apoio. Trabalhamos diariamente promovendo ações solidárias, projetos sociais e atividades que incentivam a inclusão, a dignidade e a esperança.</p>
+            <p class="texto">Entre nossos principais destaques estão os projetos sociais voltados para arrecadação de alimentos, campanhas beneficentes, apoio comunitário e eventos solidários realizados ao longo do ano. Também promovemos atividades educativas, culturais e recreativas que ajudam no desenvolvimento pessoal e social das pessoas atendidas pela instituição.</p>
+        </section>
+
+        <section id="doacoes">
+            <p class="section-eyebrow">Contribua</p>
+            <h2>Doações</h2>
+            <div class="section-divider"></div>
+            <form action="https://www.w3schools.com/action_page.php" method="POST">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone para Contato</label>
+                <input type="tel" id="telefone" name="telefone">
+
+                <label for="categoria">Categoria da Doação</label>
+                <select id="categoria" name="categoria">
+                    <option>Roupas</option>
+                    <option>Alimentos</option>
+                    <option>Materiais de Higiene</option>
+                    <option>Produtos para o Bem-estar</option>
+                    <option>Outros</option>
+                </select>
+
+                <label for="data">Data da Entrega</label>
+                <input type="date" id="data" name="data">
+
+                <label for="mensagem">Mensagem ou Detalhes</label>
+                <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="voluntario" name="voluntario">
+                    <label for="voluntario">Desejo ser voluntário</label>
+                </div>
+
+                <button type="submit" class="send">Enviar Formulário</button>
+            </form>
+        </section>
+
+        <section id="localizacao">
+            <p class="section-eyebrow">Onde estamos</p>
+            <h2>Localização</h2>
+            <div class="section-divider"></div>
+            <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.783279847157!2d-38.54339442576966!3d-3.744702143145116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7487db6f4d8b1%3A0x6bba6f4d84f6e7cb!2sAv.%20da%20Universidade%2C%203106%20-%20Benfica%2C%20Fortaleza%20-%20CE!5e0!3m2!1spt-BR!2sbr!4v1715379000000!5m2!1spt-BR!2sbr"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </section>
+    </main>
+
+    <!-- rodapé -->
+    <footer>
+        <p>Desenvolvido por
+            <a href="https://www.instagram.com/dump._archive/" target="_blank">Juliana Chaves</a>,
+            <a href="https://www.instagram.com/gehtorresviana/" target="_blank">Geh Torres</a>
+            e <a href="https://www.instagram.com/bemaryae/" target="_blank">Mariana Amorim</a>
+        </p>
+        <div class="footer-divider"></div>
+        <a href="#topo">Voltar ao topo ↑</a>
+    </footer>
+</body>
+</html>
